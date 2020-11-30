@@ -1,0 +1,12 @@
+{
+  "/networking": {
+    "target": "https://agileapps-instance.com",
+    "secure": true,
+    "changeOrigin": "true"
+  },
+  "/ace-lib": {
+    "target": "https://agileapps-instance.com",
+    "secure": true,
+    "changeOrigin": "true"
+  }
+}
