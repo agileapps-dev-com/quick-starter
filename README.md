@@ -1,2 +1,2 @@
 # app-template-cui
-Master template repository for cui templates
+Master template repository for cui templates.
