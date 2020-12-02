@@ -13,12 +13,14 @@ Run `ng serve` for a dev server. Navigate to `https://localhost:4200/`. The app 
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build ace-lib theme
+run `npm run build:theme` to generate the theme.css file from the theme.scss, available inside `~/src/assets/themes/default` directory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Build CUI template
+Run `npm run gen:tmpl` generates the cui template for packaging. It compiles the SCSS files used for theming, performs the producton build and generates the `templates-details.json`. 
 
-## Compiling ace-lib theme:
-run `npm run compile-theme` to generate the theme.css file from the theme.scss, available inside `~/src/assets/themes/default` directory.
+The generated CUI template artifacts will be available in the `./dist/app-template/` directory. You will need to 'zip' this directory before uploading to agileapps platform.
+>Note: You might need to remove the *.scss and *.ico files present inside `./dist/app-template/` directory before zipping it, unless you have explicitly white-listed these file extensions in your AgileApps instance. Otherwise, your template installation would fail.
 
 ## Running unit tests
 
