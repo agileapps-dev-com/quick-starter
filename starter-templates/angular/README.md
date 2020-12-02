@@ -17,9 +17,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 run `npm run build:theme` to generate the theme.css file from the theme.scss, available inside `~/src/assets/themes/default` directory.
 
 ## Build CUI template
-Run `npm run gen:tmpl` generates the cui template for packaging. It compiles the SCSS files used for theming, performs the producton build and generates the `templates-details.json`. 
+Run `npm run gen:tmpl` generates the cui template for packaging. It compiles the SCSS files used for theming, performs the production build and generates the `templates-details.json`. 
 
-The generated CUI template artifacts will be available in the `./dist/app-template/` directory. You will need to 'zip' this directory before uploading to agileapps platform.
+The generated CUI template artefacts will be available in the `./dist/app-template/` directory. You will need to 'zip' this directory before uploading to agileapps platform.
 >Note: You might need to remove the *.scss and *.ico files present inside `./dist/app-template/` directory before zipping it, unless you have explicitly white-listed these file extensions in your AgileApps instance. Otherwise, your template installation would fail.
 
 ## Running unit tests
